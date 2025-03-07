@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+
+int main(){
+  char linha[10]= {'A','B','C','D','E','F','G','H','I','J'};
+  
+  int Local[10][10] = {
+    {0,0,0,0,0,0,0,0,0,0,},
+    {0,0,0,0,0,0,0,0,0,0,},
+    {0,0,0,3,0,0,0,3,0,0,},
+    {0,0,0,3,0,0,3,3,3,0,},
+    {0,3,3,3,3,3,0,3,0,0,},
+    {0,0,0,3,0,0,0,0,0,0,},
+    {0,0,0,3,0,0,0,0,0,0,},
+    {0,0,0,0,0,0,0,3,0,0,},
+    {0,0,0,0,0,0,3,3,3,0,},
+    { 0,0,0,0,0,0,0,0,0,0},
+  };
+  printf("BATALHA NAVAL\n");
+
+  printf(" A B C D E F G H I J\n");
+  printf("{0,0,0,0,0,0,0,0,0,0},\n");
+  printf("{0,0,0,0,0,0,0,0,0,0},\n");
+  printf("{0,0,3,0,0,0,0,3,0,0},\n");
+  printf("{0,0,3,0,0,0,3,3,3,0},\n");
+  printf("{3,3,3,3,3,0,0,3,0,0},\n");
+  printf("{0,0,3,0,0,0,0,0,0,0},\n");
+  printf("{0,0,3,0,0,0,0,0,0,0},\n");
+  printf("{0,0,0,0,0,0,0,3,0,0},\n");
+  printf("{0,0,0,0,0,0,3,3,3,0},\n");
+  printf("{0,0,0,0,0,0,0,0,0,0},\n");
+
+
+
+
+  for(int j = 1 ; j <= 1; j++){
+    for(int i = 1; i <= 1; i++)
+    printf("Foram usadas as abilidades de cone [6][C] na area %d\n", Local[3][3]);
+    printf("Foram usadas as abilidades de octaedro [4][H] na area %d\n", Local[3][3]);
+    printf("Foram usadas as abilidades de cruz [9][H] na area %d\n", Local[3][3]);
+   } 
+
+   for(int j = 1 ; j <= 1; j++){
+    for(int i = 1; i <= 1; i++)
+    printf(" area %c\n",linha[2]);
+    printf(" area %c\n",linha[7]);
+    printf(" area %c\n",linha[7]);
+   } 
+ 
+  
+
+}
